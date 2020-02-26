@@ -11,7 +11,7 @@
       - 在注释中添加与数据库关联的实体列表。
       - 包含具有** 0 **个参数且返回iu使用 @Dao 注释的类。
       
-      在运行时, 可以通过 Room。databaseBuilder() 或 Room.inMemoryDtabaseBuilder() 获取 Database 的实例。
+      在运行时, 可以通过 **Room.databaseBuilder()** 或 **Room.inMemoryDtabaseBuilder()** 获取 Database 的实例。
 - Entity：表示数据库中的表。
 - Dao：包含用于访问数据库的方法。
   - @Insert 插入操作 返回值为插入的行数,类型为long。
