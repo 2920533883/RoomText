@@ -9,8 +9,7 @@
   - 使用 @Database 注释的类应满足以下条件：
       - 是扩展 RoomDtabase 的抽象类。
       - 在注释中添加与数据库关联的实体列表。
-      - 包含具有** 0 **个参数且返回iu使用 @Dao 注释的类。
-      
+      - 包含具有 **0** 个参数且返回iu使用 @Dao 注释的类。  
       在运行时, 可以通过 **Room.databaseBuilder()** 或 **Room.inMemoryDtabaseBuilder()** 获取 Database 的实例。
 - Entity：表示数据库中的表。
 - Dao：包含用于访问数据库的方法。
